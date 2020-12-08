@@ -1,5 +1,8 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
-  </div>
+	<div class="about">
+		<h2>
+			This non monitizable project is for a school task, with no
+			sponsorship from SpaceX
+		</h2>
+	</div>
 </template>

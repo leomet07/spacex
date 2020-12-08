@@ -10,8 +10,14 @@
 		<h1>The Falcon 9.</h1>
 		<h2>Worlds First Rocket Capable of Reflight</h2>
 		<img
-			alt="Vue logo"
+			alt="Falcon 9 Takeoff"
 			src="../../public/img/falcon9launch.gif"
+			id="display"
+		/>
+		<h2>SpaceX has failed many times before aswell...</h2>
+		<img
+			alt="Exploding Image 1"
+			src="../../public/img/explode1.gif"
 			id="display"
 		/>
 	</div>
