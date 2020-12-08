@@ -1,7 +1,19 @@
 <template>
 	<div class="home">
-		<img alt="Vue logo" src="../../public/img/rocket.jpg" id="display" />
-		<h1>SpaceX, humanities biggest corpoarate success.</h1>
+		<!-- <img alt="Vue logo" src="../../public/img/rocket.jpg" id="display" /> -->
+		<!-- <img alt="Vue logo" src="../../public/img/landing.gif" id="display" /> -->
+		<h1>SpaceX, humanities biggest corporate success.</h1>
+		<video autoplay muted loop id="mainlandervideo">
+			<source src="../../public/img/land.mp4" type="video/mp4" />
+		</video>
+
+		<h1>The Falcon 9.</h1>
+		<h2>Worlds First Rocket Capable of Reflight</h2>
+		<img
+			alt="Vue logo"
+			src="../../public/img/falcon9launch.gif"
+			id="display"
+		/>
 	</div>
 </template>
 
@@ -17,7 +29,19 @@ export default {
 };
 </script>
 <style scoped>
-#display {
-	width: 100px;
+h1 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: "BankGothic";
+}
+h2 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	font-family: "BankGothic";
+}
+#mainlandervideo {
+	margin-top: 10px;
+	width: 75%;
+	margin-bottom: 15px;
 }
 </style>
