@@ -12,13 +12,13 @@
 		<img
 			alt="Falcon 9 Takeoff"
 			src="../../public/img/falcon9launch.gif"
-			id="display"
+			class="display"
 		/>
 		<h2>SpaceX has failed many times before aswell...</h2>
 		<img
 			alt="Exploding Image 1"
 			src="../../public/img/explode1.gif"
-			id="display"
+			class="display"
 		/>
 	</div>
 </template>
@@ -49,5 +49,8 @@ h2 {
 	margin-top: 10px;
 	width: 75%;
 	margin-bottom: 15px;
+}
+.display {
+	width: 75%;
 }
 </style>
