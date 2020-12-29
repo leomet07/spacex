@@ -1,7 +1,5 @@
 <template>
 	<div class="home">
-		<!-- <img alt="Vue logo" src="../../public/img/rocket.jpg" id="display" /> -->
-		<!-- <img alt="Vue logo" src="../../public/img/landing.gif" id="display" /> -->
 		<h1>SpaceX, humanities biggest corporate success.</h1>
 		<video autoplay muted loop class="responsive" id="mainlandervideo">
 			<source src="../../public/img/land.mp4" type="video/mp4" />
