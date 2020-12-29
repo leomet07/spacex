@@ -1,7 +1,14 @@
 <template>
 	<div class="home">
 		<h1>SpaceX, humanities biggest corporate success.</h1>
-		<video autoplay muted loop class="responsive" id="mainlandervideo">
+		<video
+			preload
+			autoplay
+			muted
+			loop
+			class="responsive"
+			id="mainlandervideo"
+		>
 			<source src="../../public/img/land.mp4" type="video/mp4" />
 		</video>
 
