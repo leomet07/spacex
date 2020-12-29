@@ -3,7 +3,7 @@
 		<!-- <img alt="Vue logo" src="../../public/img/rocket.jpg" id="display" /> -->
 		<!-- <img alt="Vue logo" src="../../public/img/landing.gif" id="display" /> -->
 		<h1>SpaceX, humanities biggest corporate success.</h1>
-		<video autoplay muted loop id="mainlandervideo">
+		<video autoplay muted loop class="responsive" id="mainlandervideo">
 			<source src="../../public/img/land.mp4" type="video/mp4" />
 		</video>
 
@@ -12,13 +12,13 @@
 		<img
 			alt="Falcon 9 Takeoff"
 			src="../../public/img/falcon9launch.gif"
-			class="display"
+			class="display responsive"
 		/>
 		<h2>SpaceX has failed many times before aswell...</h2>
 		<img
 			alt="Exploding Image 1"
 			src="../../public/img/explode1.gif"
-			class="display"
+			class="display responsive"
 		/>
 	</div>
 </template>
@@ -44,12 +44,14 @@ h2 {
 	margin-bottom: 5px;
 	font-family: "BankGothic";
 }
+
+.responsive {
+	width: 95%;
+	max-width: 680px;
+}
 #mainlandervideo {
 	margin-top: 10px;
-	width: 75%;
+
 	margin-bottom: 15px;
-}
-.display {
-	width: 75%;
 }
 </style>
