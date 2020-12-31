@@ -12,8 +12,8 @@
 			<source src="../../public/img/land.mp4" type="video/mp4" />
 		</video>
 
-		<h1>The Falcon 9.</h1>
-		<h2>Worlds First Rocket Capable of Reflight</h2>
+		<h1 class="spacexfont">The Falcon 9.</h1>
+		<h3>Worlds First Rocket Capable of Reflight</h3>
 		<img
 			alt="Falcon 9 Takeoff"
 			src="../../public/img/falcon9launch.gif"
@@ -39,17 +39,18 @@ export default {
 };
 </script>
 <style scoped>
-h1 {
+h1,
+h2,
+h3 {
 	margin-top: 5px;
 	margin-bottom: 5px;
-	font-family: "BankGothic";
-}
-h2 {
-	margin-top: 5px;
-	margin-bottom: 5px;
-	font-family: "BankGothic";
 }
 
+.spacexfont {
+	font-family: "BankGothic";
+
+	margin-bottom: 15px;
+}
 .responsive {
 	width: 95%;
 	max-width: 680px;

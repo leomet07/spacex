@@ -2,7 +2,9 @@
 	<div id="app">
 		<div id="nav">
 			<router-link to="/">Home</router-link> |
+			<router-link to="/rockethistory">Rocket History</router-link> |
 			<router-link to="/merlin">Merlin Engline</router-link> |
+			<router-link to="/funding">Funding</router-link> |
 			<router-link to="/about">About</router-link>
 		</div>
 		<router-view />
@@ -20,6 +22,7 @@
 * {
 	padding: 0;
 	margin: 0;
+	color: black;
 }
 body {
 	padding: 0;
