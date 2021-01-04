@@ -3,13 +3,13 @@
 		<h1>Funding</h1>
 		<div id="info">
 			<h3>
-				SpaceX has raised over $1.9 billion in new funding this month,
-				representing its largest single fundraising round to date,
-				according to a report from SpaceNews. A regulatory filing on
-				Tuesday (Aug. 18) showed that 75 investors made equity
-				investments in Elon Musk's launch company. SpaceX is also
-				selling an additional $165 million in common stock, which would
-				put the final amount of new funding at $2.07 billion, SpaceNews
+				SpaceX has raised over $1.9 billion thorugh investor funding
+				this month, representing its largest single fundraising round to
+				date, according to a report from SpaceNews. A filing on Aug. 18
+				showed that 75 investors made equity investments in Elon Musk's
+				launch company. SpaceX is also selling an additional $165
+				million in common stock (private stock), which would put the
+				final amount of new funding at $2.07 billion, SpaceNews
 				reported. The California-based company raised more than $346
 				million in May after increasing the ceiling to $350 million, up
 				from $250 million in February, according to the company's

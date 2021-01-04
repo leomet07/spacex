@@ -40,6 +40,8 @@ body {
 	margin: 0;
 	margin-top: 30px;
 	margin-bottom: 15px;
+	margin-right: 15px;
+	margin-left: 15px;
 }
 
 #nav a {
